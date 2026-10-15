@@ -36,3 +36,6 @@
 *RF4:* La luz amarilla debe advertir a los conductores que se aproxima un cambio de señal.
 *RF5:* La luz verde debe indicar a los conductores que pueden avanzar, siempre que sea seguro.
 >>>>>>> d0254ffb57db420770e760854704cf6619414518
+
+#Código del semáforo en wokwi
+https://wokwi.com/projects/467900370021718017 
