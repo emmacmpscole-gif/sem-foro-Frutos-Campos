@@ -42,3 +42,38 @@ Protoboard $3195
 Leds $1932,03
 Resistencias 220Ω $1905,02
 Cables $2925,30 
+# Código del semáforo en wokwi
+int rojo = 8;
+int amarillo = 9;
+int verde = 10;
+int estado = 1;
+
+void setup() {
+  pinMode(rojo, OUTPUT);
+  pinMode(amarillo, OUTPUT);
+  pinMode(verde, OUTPUT);
+}
+
+void loop() {
+  if (estado == 1) {
+    digitalWrite(verde, HIGH);
+    digitalWrite(amarillo, LOW);
+    digitalWrite(rojo, LOW);
+    delay(5000);
+    estado = 2;
+  }
+  else if (estado == 2) {
+    digitalWrite(verde, LOW);
+    digitalWrite(amarillo, HIGH);
+    digitalWrite(rojo, LOW);
+    delay(2000);
+    estado = 3;
+  }
+  else {
+    digitalWrite(verde, LOW);
+    digitalWrite(amarillo, LOW);
+    digitalWrite(rojo, HIGH);
+    delay(5000);
+    estado = 1;
+  }
+}
