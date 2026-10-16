@@ -41,7 +41,8 @@ Placa Arduino $10397,77
 Protoboard $3195
 Leds $1932,03
 Resistencias 220Ω $1905,02
-Cables $2925,30 
+Cables $2925,30
+Cable USB $2550,20
 # Código del semáforo en wokwi
 int rojo = 8;
 int amarillo = 9;
