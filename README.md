@@ -36,3 +36,9 @@
 *RF4:* La luz amarilla debe advertir a los conductores que se aproxima un cambio de señal.
 *RF5:* La luz verde debe indicar a los conductores que pueden avanzar, siempre que sea seguro.
 >>>>>>> d0254ffb57db420770e760854704cf6619414518
+# Precio de componentes
+Placa Arduino $10397,77
+Protoboard $3195
+Leds $1932,03
+Resistencias 220Ω $1905,02
+Cables $2925,30 
